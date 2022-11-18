@@ -23,7 +23,7 @@
     "typescript": "^4.8.4",
     "vite": "^3.1.4",
     "vite-electron-plugin": "^0.4.6",
-    "wouter-preact": "2.8.0-alpha.2"
+    "wouter-preact": "2.9.0"
   },
   "debug": {
     "env": {
