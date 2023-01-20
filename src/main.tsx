@@ -1,13 +1,7 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App'
-import './samples/node-api'
-import './index.scss'
+import { render } from 'preact'
+import App from './app'
+import "@/assets/styles/index.css"
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+render(<App />, document.body)
 
 postMessage({ payload: 'removeLoading' }, '*')

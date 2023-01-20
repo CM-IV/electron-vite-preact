@@ -1,0 +1,16 @@
+@import "./bulma.min.css";
+
+:root {
+    --accent-gradient: linear-gradient(45deg, #24527a, #f2565a 30%, white 60%);
+}
+
+html,
+body {
+    background-color: #e3e3e3;
+    height: 100vh;
+}
+
+#boxMenu {
+    background: #c06c84;
+    margin-left: 2rem;
+}
